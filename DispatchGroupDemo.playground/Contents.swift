@@ -1,23 +1,5 @@
 import Foundation
 
-enum Direction {
-    case east, west, north, south
-}
-
-extension Direction {
-    var startingPoint: String {
-        "Mumbai 🇮🇳"
-    }
-    
-    var destination: String {
-        switch self {
-        case .east: return "Tokyo 🇯🇵"
-        case .west: return "New York 🇺🇸"
-        case .north: return "London 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-        case .south: return "Cape Town 🇿🇦"
-        }
-    }
-}
 
 
 class Traveller {
