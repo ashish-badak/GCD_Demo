@@ -1,9 +1,9 @@
 import Foundation
 
-let gopal = Traveller(name: "Gopal", headedIn: .east)
-let madhav = Traveller(name: "Madhav", headedIn: .west)
-let laxman = Traveller(name: "Laxman", headedIn: .north)
-let lucky = Traveller(name: "Lucky", headedIn: .south)
+let gopal = Traveller(name: "Gopal", travellingTo: .tokyo)
+let madhav = Traveller(name: "Madhav", travellingTo: .newYork)
+let laxman = Traveller(name: "Laxman", travellingTo: .london)
+let lucky = Traveller(name: "Lucky", travellingTo: .capeTown)
 
 
 print("Everyone is going on a vacation ✈️")
